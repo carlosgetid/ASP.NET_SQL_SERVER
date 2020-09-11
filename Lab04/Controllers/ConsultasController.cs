@@ -41,7 +41,7 @@ namespace Lab04.Controllers
             return resultado;
         }
         
-        public ActionResult busquedaClientes(String nombre)
+        public ActionResult busquedaClientes(String nombre = "")
         {
             List<Cliente> lista = buscarClientes(nombre);
 
